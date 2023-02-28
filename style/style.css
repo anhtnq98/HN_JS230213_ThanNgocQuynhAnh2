@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(241, 237, 237);
+}
+
+body {
+    padding: 0 90px 0 90px;
+
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+header h2,
+p {
+    background-color: white;
+}
+
+header p {
+    padding-top: 5px;
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+header span {
+    border-left: black solid 5px;
+    border-right: black solid 5px;
+    background-color: gray;
+}
+
+.subcribe p {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    position: absolute;
+    top: 310px;
+    left: 100px;
+}
+
+.subcribe h1 {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    position: absolute;
+    top: 345px;
+    left: 100px;
+}
+
+.subcribe button {
+    padding: 8px;
+    position: absolute;
+    top: 390px;
+    left: 100px;
+    font-size: 10px;
+    background-color: rgb(161, 159, 159);
+}
+
+main {
+    display: flex;
+    padding: 12px 18px 12px 18px;
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+}
+
+article {
+    flex: 7.8;
+}
+
+article div {
+    margin-bottom: 10px;
+}
+
+.first-article {
+    background-color: white;
+    text-align: center;
+}
+
+.first-article h3 {
+    background-color: white;
+    padding: 15px 7px 7px 7px;
+}
+
+.first-article span {
+    color: black;
+    background-color: white;
+}
+
+.title {
+    background-color: white;
+    color: gray;
+    padding-bottom: 15px;
+}
+
+.article-text {
+    padding: 10px;
+    background-color: white;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+aside {
+    flex: 3.2;
+    padding-left: 15px;
+}
+
+.first-article-button {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.like-button {
+    border: gray solid 1.3px;
+    padding: 5px;
+    background-color: white;
+    font-size: x-small;
+}
+
+.relies-button {
+    border: gray solid 1.3px;
+    padding: 5px 15px 5px 15px;
+    background-color: black;
+    color: white;
+    font-size: x-small;
+}
+
+.relies-button span {
+    background-color: white;
+    padding: 2px 4px 2px 4px;
+}
+
+.comment {
+    display: flex;
+    border-top: rgb(220, 221, 223) solid 1px;
+    padding: 15px 10px 15px 10px;
+    background-color: white;
+    text-align: left;
+
+}
+
+.comment img {
+    margin-right: 50px;
+}
+
+.comment div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.comment-infor {
+    color: gray;
+    font-size: x-small;
+}
+
+.comment-infor span {
+    color: black;
+    font-size: medium;
+}
+
+.comment-text {
+    font-size: x-small;
+}
+
+.first-aside img {
+    background-color: black;
+}
+
+.first-aside h5 {
+    background-color: black;
+    color: white;
+}
+
+.first-aside p {
+    background-color: black;
+    color: white;
+}
+
+.next-aside {
+    margin-top: 23px;
+}
+
+.black-title {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+}
+
+.name-infor {
+    display: flex;
+    background-color: white;
+    padding: 4.5px;
+    border-bottom: rgb(206, 204, 204) solid 1px;
+}
+
+.name {
+    font-size: x-small;
+    padding-left: 5px;
+}
+
+.infor {
+    font-size: xx-small;
+    padding-left: 5px;
+}
+
+.advertise {
+    padding: 7px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+
+}
+
+.advertise div { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    height: 99%;
+}
+
+.advertise div p {
+    font-size: xx-small;
+    background-color: rgb(241, 237, 237);
+}
+
+.inspiration {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inspiration img {
+    margin: 5px 5px 5px 5px;
+}
+
+.icon {
+    background-color: white;
+    padding: 4px;
+}
+
+.subscribe-below {
+    background-color: white;
+}
+
+.subscribe-below button {
+    width: 100%;
+    height: 25px;
+    background-color: tomato;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .subcribe p {
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        position: absolute;
+        font-size: 7px;
+        top: 200px;
+        left: 96px;
+    }
+
+    .subcribe h1 {
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        position: absolute;
+        font-size: 10px;
+        top: 215px;
+        left: 96px;
+    }
+
+    .subcribe button {
+        padding: 5px;
+        position: absolute;
+        top: 229px;
+        left: 96px;
+        font-size: 5px;
+        background-color: rgb(161, 159, 159);
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
